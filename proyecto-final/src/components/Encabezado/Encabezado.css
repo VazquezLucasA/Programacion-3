@@ -1,0 +1,23 @@
+.full-width-navbar {
+    width: 100%;
+    height: 80px;
+    
+  }
+
+  .phone-icon {
+    margin-right: 15px; /* Ajusta el valor para el espaciado deseado */
+  }
+  
+  .brand-image {
+    vertical-align: middle;
+    width: 200px;
+    position: relative;
+    top: 8px;
+  }
+
+  /* Estilos para el Navbar */
+.navbar-dark {
+  background-color: #001946;
+}
+
+  

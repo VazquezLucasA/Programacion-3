@@ -5,22 +5,23 @@
     min-height:90vh;
     margin:auto;
     
-    grid-template-areas: 'header header'
-                          'nav nav'
+    grid-template-areas: 'nav nav'
+                          'header header'
                           'aside main'
                           'footer footer';
     grid-template-columns: 20% auto;
-    grid-template-rows: 20% 10% auto 10%;
+    grid-template-rows: 5% 35% auto 10%;
     outline: 3px solid black;
 }
   
 .header{
     grid-area: header;
-    background-color: rgb(83, 83, 83);
+    background-color: whitesmoke;
   }
   .nav{
     grid-area: nav;
-    background-color: rgb(151, 151, 151);
+    background-color: #001946;
+    
   }
   .main{
     grid-area: main;
@@ -28,9 +29,9 @@
   }
   .aside{
     grid-area: aside;
-    background-color: rgb(104, 104, 104);
+    background-color: #001946;
   }
   .footer{
     grid-area: footer;
-    background-color: rgb(49, 49, 49);
+    background-color: #001946;
   }

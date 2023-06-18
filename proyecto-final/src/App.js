@@ -1,15 +1,18 @@
 import './App.css';
-import Navbar from './components/navbar/Navbar';
 import Carta from './components/card/Carta';
-import List from './components/items/Items' 
+import List from './components/items/Items';
+import Header from './components/header/Header';
+import Encabezado from './components/Encabezado/Encabezado';
 
 function App() {
   return (
     <>
       <div className="grid-layout">
-        <div className="header"></div>
         <div className="nav">
-          <Navbar/>
+          <Encabezado/>
+        </div>
+        <div className="header">
+          <Header/>
         </div>
         <div className="main">
            <Carta/>
