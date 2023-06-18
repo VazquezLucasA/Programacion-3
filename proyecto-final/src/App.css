@@ -11,7 +11,6 @@
                           'footer footer';
     grid-template-columns: 20% auto;
     grid-template-rows: 5% 35% auto 10%;
-    outline: 3px solid black;
 }
   
 .header{
