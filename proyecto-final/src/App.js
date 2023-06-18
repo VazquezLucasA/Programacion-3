@@ -15,7 +15,6 @@ function App() {
           <Header/>
         </div>
         <div className="main">
-           <Carta/>
            <List/>
         </div>
         <div className="aside"></div>

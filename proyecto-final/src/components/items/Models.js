@@ -17,6 +17,15 @@ const modelos = [
         img: '../../assets/img/iphone 14 pro max 256.png'    },
     {
         name:'iphone 14 pro max',
+        img: '../../assets/img/iphone 14 pro max 256.png'    },
+    {
+        name:'iphone 14 pro max',
+        img: '../../assets/img/iphone 14 pro max 256.png'    },
+    {
+        name:'iphone 14 pro max',
+        img: '../../assets/img/iphone 14 pro max 256.png'    },
+    {
+        name:'iphone 14 pro max',
         img: '../../assets/img/iphone 14 pro max 256.png'    }
 ]
 export default modelos;

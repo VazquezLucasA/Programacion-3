@@ -1,22 +1,24 @@
 import s23 from '../../assets/img/s23.jpg'
 import modelos from './Models';
 import { Item } from './Item';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import CardGroup from 'react-bootstrap/CardGroup';
+
 
 function List() {
+  const  listModelos = modelos.map(modelo => 
+    <Item name={modelo.name} img={modelo.img}/>
+    )
   return (
 
     <>
-  
-    {modelos.map((modelo) =>{return <Item name={modelo.name} img={modelo.img}/>}
-    )}
-    
-    
-  <img src={s23} width={"100px"}/>
-  </>
+    <CardGroup className='m-2'>
+      {listModelos}
+    </CardGroup> 
+    </>
   );
 }
 
 export default List;
 
-
-{/* <>{modelo.name}<img src= {modelo.img} width={"100px"}/><br/></>  */}
