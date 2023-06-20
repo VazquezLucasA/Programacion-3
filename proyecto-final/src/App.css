@@ -12,6 +12,7 @@
                           'footer footer';
     grid-template-columns: 20% auto;
     grid-template-rows: 5% 25% auto 5%;
+    
 }
   
 .header{
