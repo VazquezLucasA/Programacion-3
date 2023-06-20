@@ -1,8 +1,9 @@
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 .grid-layout{
     display: grid;
-    background-color:#ffff;
+    background-color:whitesmoke;
     max-width: 100%;
-    min-height:90vh;
+    min-height: 90vh;
     margin:auto;
     
     grid-template-areas: 'nav nav'
@@ -10,27 +11,42 @@
                           'aside main'
                           'footer footer';
     grid-template-columns: 20% auto;
-    grid-template-rows: 5% 35% auto 10%;
+    grid-template-rows: 5% 25% auto 5%;
 }
   
 .header{
     grid-area: header;
     background-color: whitesmoke;
+    position: relative;
+    bottom: 53px;
   }
   .nav{
     grid-area: nav;
     background-color: #001946;
+    height: 100px;
     
   }
   .main{
     grid-area: main;
+    background-color: whitesmoke;
+     /* Agrega un espacio en la parte inferior */
+  /*grid-area: main;
   background-color: whitesmoke;
+  position: relative;
+  bottom: 250px;*/
   }
   .aside{
     grid-area: aside;
     background-color: #001946;
+    
   }
   .footer{
     grid-area: footer;
     background-color: #001946;
+  }
+
+  /*BODY*/
+  body{
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
   }

@@ -2,11 +2,12 @@ import { Card } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import React from 'react'
 import s23 from '../../assets/img/s23+.webp';
+import './card.css'
 
 function Carta() {
   return (
     <>
-        <Card style={{ width: '18rem' }}>
+      <Card style={{ width: '18rem'}}>
       <Card.Img variant="top" src={s23} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>

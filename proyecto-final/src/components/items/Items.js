@@ -8,7 +8,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
 
 function List() {
   const  listModelos = modelos.map(modelo => 
-    <Item name={modelo.name} img={modelo.img}/>
+    <Item name={modelo.name} img={modelo.img} descripcion={modelo.descripcion}/>
     )
   return (
 

@@ -5,14 +5,20 @@
   }
 
   .phone-icon {
-    margin-right: 15px; /* Ajusta el valor para el espaciado deseado */
+    margin-right: 15px;
+    position: relative;
+    top: 10px;
+  }
+
+  .login-icon{
+    margin-right: 10px;
   }
   
   .brand-image {
     vertical-align: middle;
     width: 200px;
     position: relative;
-    top: 8px;
+    top: 12px;
   }
 
   /* Estilos para el Navbar */
@@ -20,4 +26,8 @@
   background-color: #001946;
 }
 
+.ml-auto{
+  position: relative;
+  top: 10px;
+}
   

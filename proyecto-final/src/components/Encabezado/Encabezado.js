@@ -3,6 +3,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import './Encabezado.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faMobile} from '@fortawesome/free-solid-svg-icons';
+import { faRightToBracket } from '@fortawesome/free-solid-svg-icons';
 import Icon from '../../assets/img/icono.png';
 
 function Encabezado() {
@@ -18,7 +19,7 @@ function Encabezado() {
           <Nav.Link href="#home">Productos</Nav.Link>
           <Nav.Link href="#features">Contáctanos</Nav.Link>
           <Nav.Link href="#pricing">Sobre nosotros</Nav.Link>
-          <Nav.Link href="#pricing">Login/Sign Up</Nav.Link>
+          <Nav.Link href="#pricing"><FontAwesomeIcon icon={faRightToBracket} className='login-icon'/>Login/Sign Up</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
