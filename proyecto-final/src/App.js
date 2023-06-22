@@ -8,6 +8,7 @@ import Aside from './components/Aside/Aside';
 import CarrouselChico from './components/CarrouselChico/CarrouselChico';
 import Publicidad from './components/Publicidad/Publicidad';
 import Footer from './components/Footer/Footer';
+import RouterApp from './routes/RouterApp';
 
 
 function App() {
@@ -33,7 +34,6 @@ function App() {
           <Footer/>
         </div>
       </div>
-   
     </>
   );
 }

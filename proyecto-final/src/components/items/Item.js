@@ -11,6 +11,7 @@ export const Item = (props) => {
      <div className='col-md-3 m-4'>
     <Card className='custom-card-container'>
     <Card.Img variant="top" src={imagen}/>
+    {/* ` */}
     <Card.Body>
       <Card.Title className='titulo'><strong>{props.name}</strong></Card.Title>
       <Card.Text className='descripcion'>

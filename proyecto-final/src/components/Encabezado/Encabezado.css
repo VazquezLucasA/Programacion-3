@@ -30,4 +30,8 @@
   position: relative;
   top: 10px;
 }
-  
+
+.links {
+  text-decoration: none;
+  color: white;
+}
