@@ -9,10 +9,6 @@ import App from "../App";
 import React from 'react'
 
 const RouterApp = () => {
-  const Inicio = () => <h1>Home</h1>;
-  const Contacto = () => <h1>Pet List</h1>;
-  const Productos = () => <h1>Layout</h1>;
-
   return (
     <BrowserRouter>
         <Routes>
