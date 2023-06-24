@@ -1,0 +1,58 @@
+.custom-card-container {
+    width: 300px;
+    height: 200px; /* Define el ancho deseado para el contenedor de la card */
+    position: relative;
+    bottom: 200px;
+  }
+  
+  .off{
+    color: white;
+    width: 90px;
+    height: 25px;
+    background-color: #1753BB;
+    position: relative;
+    left: 100px;
+    bottom: 25px;
+    text-align: center;
+    border-radius: 5%;
+    font-size: 20px;
+  }
+  
+  .titulo{
+    text-align: center;
+  }
+
+  .descripcion{
+    text-align: center;
+  }
+
+  .precio{
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+  }
+
+  .envio{
+    position: relative;
+    bottom: 30px;
+    right: 15px;
+  }
+
+  .cuotas{
+    font-size: 11px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .ver:hover {
+   transform: scale(1.1);
+   transition: 0.2s;
+   background-image: linear-gradient(to right, #001946, #1753BB); /* Crea un degradado de color horizontal */
+  }
+  
+  .card-group{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 50px;
+  }

@@ -1,0 +1,46 @@
+/* En tu archivo Publicidad.css */
+
+.imagen-publicidad {
+    width: 230px; 
+    height: auto; 
+    position: relative;
+    top: 200px;
+    left: 10px;
+  }
+
+  .imagen-publicidad:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    filter: grayscale(100%);
+  }
+
+  
+.imagen-publicidad2{
+    width: 230px; 
+    height: auto; 
+    position: relative;
+    top: 300px;
+    left: 10px;
+  }
+
+  .imagen-publicidad2:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    filter: grayscale(100%);
+  }
+
+  
+  .imagen-publicidad3{
+    width: 230px; 
+    height: auto; 
+    position: relative;
+    top: 400px;
+    left: 10px;
+  }
+
+  .imagen-publicidad3:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    filter: grayscale(100%);
+  }
+  
