@@ -1,0 +1,14 @@
+.carousel-container {
+    width: 90%; 
+    margin: 0 auto; 
+    /* position: relative; */
+    position: relative;
+    bottom: 30px;
+  }
+  
+  .carousel-container img {
+    width: 50%; 
+    height: auto; 
+  }
+
+  

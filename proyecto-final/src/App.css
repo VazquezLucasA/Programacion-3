@@ -18,7 +18,7 @@
 .header{
     grid-area: header;
     background-color: whitesmoke;
-    position: relative;
+    /* position: relative; */
     bottom: 53px;
   }
   .nav{
@@ -30,6 +30,7 @@
   .main{
     grid-area: main;
     background-color: whitesmoke;
+    padding: auto;
      /* Agrega un espacio en la parte inferior */
   /*grid-area: main;
   background-color: whitesmoke;

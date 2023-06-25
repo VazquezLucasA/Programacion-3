@@ -1,15 +1,13 @@
 import './App.css';
-import Carta from './components/card/Carta';
-import List from './components/items/Items';
-import Header from './components/header/Header';
-import Encabezado from './components/Encabezado/Encabezado';
+import List from './components/Products/Items';
+import Header from './components/Slider/Slider';
+import Encabezado from './components/Navbar/Navbar';
 import Main from './components/Main/Main';
 import Aside from './components/Aside/Aside';
-import CarrouselChico from './components/CarrouselChico/CarrouselChico';
-import Publicidad from './components/Publicidad/Publicidad';
+import CarrouselChico from './components/ZCarrouselChico/CarrouselChico';
+import Publicidad from './components/Advertising/Publicidad';
 import Footer from './components/Footer/Footer';
 import RouterApp from './routes/RouterApp';
-
 
 function App() {
   return (
@@ -27,8 +25,8 @@ function App() {
            <List/>
         </div>
         <div className="aside">
-          <Aside/>
-          <Publicidad/>
+          <Aside/> 
+          <Publicidad />
         </div>
         <div className="footer">
           <Footer/>

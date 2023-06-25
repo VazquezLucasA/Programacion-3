@@ -1,0 +1,66 @@
+ .custom-card {
+    width: 150px; 
+    height: 50px; 
+    margin: 0 50px;
+    
+  }
+
+  
+  .custom-image {
+    width: 150%; 
+    height: 150px;
+    margin: auto;
+    background-color: #001946;
+   
+  }
+
+  .custom-card .card-title {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .body{
+    background-color: #001946;
+  }
+  
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%); /* Cambia el color de la flecha a su opuesto */
+  /* Agrega otros estilos de tu elección */
+}
+
+.carousel-control-prev{
+    width: 30px; /* Ajusta el ancho de las flechas según tu preferencia */
+/* Agrega otros estilos de tu elección */
+margin-right: -50px;
+position: absolute;
+right: 50%;
+transform: translateX(-50%);
+} 
+.carousel-control-next {
+  width: 30px; /* Ajusta el ancho de las flechas según tu preferencia */
+  /* Agrega otros estilos de tu elección */
+  margin-left: -125px;
+  position: absolute;
+  left: 125%;
+  transform: translateX(-125%);
+}
+
+
+
+.custom-carousel {
+  position: relative;
+  right: 100px;
+  bottom: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+    
+  }
+  
+
+  
+  
+  
