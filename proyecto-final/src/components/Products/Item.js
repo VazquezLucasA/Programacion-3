@@ -2,18 +2,21 @@ import React from 'react'
 import Card from 'react-bootstrap/Card';
 import { Button } from 'react-bootstrap';
 import imagen from '../../assets/img/s23+.webp';
-// import './Item.css'
+import './Item.css'
 
 
 export const Item = (props) => {
   return (
     
      <div className='col-md-3 m-4'>
-    <Card className='custom-card-container'>
+    <Card className='custom-card-container' style={{
+       position: 'relative',
+       bottom: '280px'
+    }}>
     <Card.Img variant="top" src={imagen}/>
     {/* ` */}
     <Card.Body>
-      <Card.Title className='titulo'><strong>{props.name}</strong></Card.Title>
+      <Card.Title className='titulo' style={{textAlign: 'center', position: 'relative', left: '10px', top: '0px'}}><strong>{props.name}</strong></Card.Title>
       <Card.Text className='descripcion'>
         {props.descripcion}
       </Card.Text>

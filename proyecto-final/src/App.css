@@ -1,9 +1,15 @@
   @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-.grid-layout{
+/*BODY*/
+  body{
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .grid-layout{
     display: grid;
     background-color:whitesmoke;
     max-width: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
     margin:auto;
     
     grid-template-areas: 'nav nav'
@@ -18,7 +24,6 @@
 .header{
     grid-area: header;
     background-color: whitesmoke;
-    /* position: relative; */
     bottom: 53px;
   }
   .nav{
@@ -31,11 +36,6 @@
     grid-area: main;
     background-color: whitesmoke;
     padding: auto;
-     /* Agrega un espacio en la parte inferior */
-  /*grid-area: main;
-  background-color: whitesmoke;
-  position: relative;
-  bottom: 250px;*/
   }
   .aside{
     grid-area: aside;
@@ -47,8 +47,7 @@
     background-color: #001946;
   }
 
-  /*BODY*/
-  body{
-    font-family: 'Work Sans', sans-serif;
-    overflow-x: hidden;
-  }
+  
+
+ 
+  

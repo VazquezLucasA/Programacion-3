@@ -12,7 +12,7 @@ import TestComponent from '../AsideMenu/AsideMenu';
 function Encabezado() {
   return (
     <>
-      <Navbar  variant="dark" className="full-width-navbar">
+      <Navbar  variant="dark" className="full-width-navbar" fixed='top'>
       <Container>
       <TestComponent/>
         <Navbar.Brand className="navbar-brand">
@@ -22,11 +22,11 @@ function Encabezado() {
           </Link>
         </Navbar.Brand>
         <Nav className="ml-auto">
-          <Nav.Link ><Link to="/Productos">Productos</Link></Nav.Link>
-          <Nav.Link ><Link to="/Contacto">Contáctanos</Link></Nav.Link>
-          <Nav.Link ><Link to="/AboutUs">Sobre nosotros</Link></Nav.Link>
+          <Nav.Link><Link to="/Productos" style={{textDecoration: 'none', color: 'white'}}>Productos</Link></Nav.Link>
+          <Nav.Link ><Link to="/Contacto" style={{textDecoration: 'none', color: 'white'}}>Contáctanos</Link></Nav.Link>
+          <Nav.Link ><Link to="/AboutUs" style={{textDecoration: 'none', color: 'white'}}>Sobre nosotros</Link></Nav.Link>
           <Nav.Link >
-            <Link to="/Login"><FontAwesomeIcon icon={faRightToBracket} className='login-icon'/>Login/Sign Up</Link>
+            <Link to="/Login" style={{textDecoration: 'none', color: 'white'}}><FontAwesomeIcon icon={faRightToBracket} className='login-icon'/>Login/Sign Up</Link>
           </Nav.Link>
         </Nav>
       </Container>

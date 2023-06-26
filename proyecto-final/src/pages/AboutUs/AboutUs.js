@@ -1,11 +1,12 @@
 import React from 'react'
-import Encabezado from '../../components/Navbar/Navbar';
+import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import { Link } from 'react-router-dom';
 import Header from '../../components/Slider/Slider';
 import List from '../../components/Products/Items';
 import Main from '../../components/Main/Main';
 import Aside from '../../components/Aside/Aside';
+import './AboutUs.css'
 
 
 const AboutUs = () => {
@@ -13,14 +14,29 @@ const AboutUs = () => {
     <>
       <div className="grid-layout">
         <div className="nav">
-          <Encabezado/>
+          <Navbar/>
         </div>
-        <div className="header">
+        <div className="header" style={{position: 'relative', top: '120px'}}>
+          <Header/>
         </div>
         <div className="main">
-          <h2>about us</h2>
+        <div className="tituloA" style={{position: 'relative', top: '350px', textAlign: 'center', right: '100px'}}>
+            <h1>¿Quiénes somos?</h1>
+          </div>
+          <hr style={{position: 'relative', top: '350px', right: '100px'}} />
+          <div className="parrafo" style={{position: 'relative', top: '400px', textAlign: 'center', right: '100px'}}>
+            <p className='fst-italic'>
+              PhoneTup ofrece una gran variedad de teléfonos celulares que puedes adquirir 
+              a través de nuestra página. Somos tu lugar favorito a la hora de comprar una nueva adquisición para vos y tu comunicación.
+              Somos un pequeño grupo de estudiantes de la Tecnicatura Universitaria en Programación que dicta la Universidad Tecnológica Nacional - Facultad Regional Tucumán que a través de su aprendizaje, decidimos lanzar
+              nuestra primera página de productos a la web. ¡Gracias por confiar en nosotros!
+            </p>
+          </div>
+           <div className="parrafo" style={{position: 'relative', top: '400px', textAlign: 'center', right: '100px'}}>
+            <p className='fst-italic' style={{height: '400px', position: 'relative', top: '100px'}}>
+            "¡PhoneTUP te acompaña a tu mejor decisión!"
+            </p>
         </div>
-        <div className="aside">
         </div>
         <div className="footer">
         <Footer/>
