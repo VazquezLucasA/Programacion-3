@@ -1,0 +1,49 @@
+.grid-layoutLogin{
+    display: grid;
+    background-color:whitesmoke;
+    max-width: 100%;
+    min-height: 100vh;
+    margin:auto;
+    
+    grid-template-areas: 'nav'
+                          'main'
+                          'footer';
+    grid-template-columns: auto;
+    grid-template-rows: 5% auto 7%;
+    
+}
+
+.navLogin{
+    grid-area: nav;
+    background-color: #001946;
+    height: 100px;
+    
+    
+  }
+  .mainLogin{
+    grid-area: main;
+    background-color: whitesmoke;
+    display: flex;
+    margin-top: 7%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .footerLogin{
+    grid-area: footer;
+    background-color: #001946;
+  }
+
+
+  /* From https://css.glass */
+.algo{
+    width: 40vh;
+    height: 50vh;
+    background: rgba(57, 80, 114, 0.36);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.9px);
+    -webkit-backdrop-filter: blur(8.9px);
+    
+}

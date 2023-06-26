@@ -2,11 +2,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from 'react';
 import App from "../App";
 import Contacto from "../pages/Contact/Contacto";
-import Productos from "../pages/Productos";
+import Productos from "../pages/Products/Productos";
 import AboutUs from "../pages/AboutUs/AboutUs";
-import Login from "../pages/Login";
+import Login from "../pages/Login/Login";
 
 const RouterApp = () => {
+
   return (
     <BrowserRouter>
       <Routes>
