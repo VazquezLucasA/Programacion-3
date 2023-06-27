@@ -1,0 +1,17 @@
+.full-width-navbar {
+    height: 80px;
+	width: 100%;
+}
+.login-icon{
+    margin-right: 10px;
+}
+
+.brand-image {
+    width: 200px;
+}
+
+.navbar-dark {
+    background-color: #001946;
+}
+
+

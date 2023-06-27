@@ -14,4 +14,4 @@ function Publicidad(){
     );
 }
 
-export default Publicidad
+export default Publicidad;

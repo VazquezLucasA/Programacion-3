@@ -6,7 +6,7 @@ import Banner02 from '../../assets/img/banner02.jpg'
 import Banner03 from '../../assets/img/banner03.jpg'
 import './Header.css';
 
-function Header() {
+function Carousel1() {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
@@ -39,4 +39,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Carousel1;
