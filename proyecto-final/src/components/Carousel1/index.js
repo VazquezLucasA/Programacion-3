@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Banner01 from '../../assets/img/banner01.jpg'
 import Banner02 from '../../assets/img/banner02.jpg'
 import Banner03 from '../../assets/img/banner03.jpg'
-import './Header.css';
+import './Carousel1.css';
 
 function Carousel1() {
   const [index, setIndex] = useState(0);

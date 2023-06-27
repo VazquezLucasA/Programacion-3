@@ -5,10 +5,9 @@ import Form from 'react-bootstrap/Form';
 import { Button } from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
 import '../../components/Footer/Footer.css';
-import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faMapMarked, faPhone } from '@fortawesome/free-solid-svg-icons';
-import wspIcon from '../../assets/img/wspicon.png';
+
 
 
 const Contacto = () => {
@@ -145,13 +144,11 @@ const Contacto = () => {
               </li>
             </ul>
             <hr style={{ width: '300px', position: 'relative', left: '500px', bottom: '650px' }} />
-            <p className="parrafito">Si tienes algun problema, no dudes en consultarnos o contactarte con nuestro servicio de telefonia!</p>
-            <p className="parrafito1">EvilGeniusMovies.com</p>
+            <p className="parrafito">Si tienes algun problema, no dudes en consultarnos o contactarte con nuestro servicio de telefonia!</p>          
             <hr style={{ width: '300px', position: 'relative', left: '500px', bottom: '630px' }} />
             <div className="wsp">
               <h4>¡Nuestro WhatsApp</h4>
               <a href="http://Whatsapp.com">
-                <img src={wspIcon} alt="WhatsApp" style={{ height: '100px' }} />
               </a>
             </div>
           </div>

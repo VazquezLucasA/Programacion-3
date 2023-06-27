@@ -2,8 +2,11 @@ import axios from 'axios';
 import './Product.css';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
+import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
+import Item from '../../components/Item';
 
-const endpoint = 'http://localhost:3000/Modelos/'
+const endpoint = 'http://localhost:3000/Modelos/';
 
 const Product = ()=>{
 	const [product, setProduct] = useState();
@@ -15,10 +18,13 @@ const Product = ()=>{
 		})
 
 	},[])
-	console.log(params.product_id)
+	
 	return(
 		<>
-			<a>{params.product_id}</a>
+			<Header />
+			<p>descripción: {product.descripcion}</p>
+			<Item {...product}/>
+			<Footer />
 		</>
 	);
 };

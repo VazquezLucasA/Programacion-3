@@ -1,6 +1,8 @@
 import React from 'react'
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
 
 function Register() {
     const navigate = useNavigate();
@@ -24,20 +26,24 @@ function Register() {
     }
 
     return (
-      <form onSubmit={handleSubmit} className='container'>
-        <h1>Register</h1>
-          <div className='form-group'>
-              <label>Username</label>
-              <input type='text' placeholder='username' className='form-control' name='username'/>
-          </div>
-          <br/>
-          <div className='form-group'>
-              <label>Password</label>
-              <input type='password' placeholder='password' className='form-control' name='password'/>
-          </div>
-          <button type='submit'>REGISTRARSE</button>
-          <button onClick={()=>navigate('/Login')}>IR A LOGIN</button>
-      </form>
+        <>
+            <Header />
+            <form onSubmit={handleSubmit} className='container'>
+            <h1>Register</h1>
+              <div className='form-group'>
+                  <label>Username</label>
+                  <input type='text' placeholder='username' className='form-control' name='username'/>
+              </div>
+              <br/>
+              <div className='form-group'>
+                  <label>Password</label>
+                  <input type='password' placeholder='password' className='form-control' name='password'/>
+              </div>
+              <button type='submit'>SIGN UP</button>
+              <button onClick={()=>navigate('/Login')}>GO TO LOGIN</button>
+            </form>
+            <Footer />
+        </>
     )
 }
 
