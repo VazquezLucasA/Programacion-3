@@ -1,6 +1,6 @@
 import React from 'react'
 import Encabezado from '../../components/Navbar/Navbar';
-import List from '../../components/Products/Items';
+import List from '../../components/Products/List';
 import Main from '../../components/Main/Main';
 import Aside from '../../components/Aside/Aside';
 import Footer from '../../components/Footer/Footer';

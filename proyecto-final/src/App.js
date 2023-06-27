@@ -1,5 +1,5 @@
 import './App.css';
-import List from './components/Products/Items';
+import List from './components/Products/List';
 import Header from './components/Slider/Slider';
 import Main from './components/Main/Main';
 import Aside from './components/Aside/Aside'
